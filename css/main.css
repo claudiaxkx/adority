@@ -21053,4 +21053,32 @@ form textarea:required:valid {
   position: relative;
   z-index: 10; /* 🔝 Forzamos que queden encima */
 }
+/* --- Reajuste de posición de las imágenes en el CTA --- */
+.mxd-promo__images {
+  display: flex;
+  justify-content: flex-end; /* ⬅️ Envía las imágenes a la derecha */
+  align-items: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 46%;
+  height: 100%;
+  z-index: 10;
+}
+
+.mxd-promo__images .promo-image-1 {
+  position: absolute;
+  right: 6rem;
+  bottom: 6rem;
+  width: 330px;
+  height: auto;
+}
+
+.mxd-promo__images .promo-image-2 {
+  position: absolute;
+  right: 16rem; /* ajusta este valor si quieres más o menos separación */
+  bottom: 12rem;
+  width: 120px;
+  height: auto;
+}
 
