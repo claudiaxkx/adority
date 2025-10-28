@@ -21081,4 +21081,28 @@ form textarea:required:valid {
   width: 120px;
   height: auto;
 }
+/* 🔧 Asegura que el bloque CTA use todo el ancho */
+.mxd-promo,
+.mxd-promo__inner {
+  width: 100%;
+}
+
+/* 🔧 Asegura que el contenedor del CTA no tenga márgenes o padding que empujen el contenido */
+.mxd-block,
+.mxd-section,
+.mxd-container {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🔧 Opcional: Si sigue desalineado, forzamos la posición absoluta */
+.mxd-promo__images {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+}
 
