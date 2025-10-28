@@ -6258,15 +6258,16 @@ form textarea:required:valid {
 
 .mxd-promo__bg {
   position: absolute;
-  top: 0;               /* antes estaba -4rem, la hacía salir del bloque */
-  right: 0;             /* antes -10rem, también la movía */
-  width: 100%;          /* antes 70%, hacía que no ocupe todo */
+  top: 0;
+  right: 0;
+  width: 100%;
   height: 100%;
-  background-image: url('./img/icons/fondo.jpg'); /* <-- tu imagen aquí */
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url("./img/icons/Libro.jpg"); /* o la imagen que quieras */
   background-size: cover;
-  z-index: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0; /* ⬅️ Esto la manda detrás */
+  opacity: 0.3; /* opcional, para que no tape el texto */
 }
 @media only screen and (min-width: 1200px) {
   .mxd-promo__bg {
@@ -21028,11 +21029,21 @@ form textarea:required:valid {
 /* Features - Project Details End */
 /* ------------------------------------------------*/
 .mxd-promo__bg {
-  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0; /* Fondo atrás */
+  opacity: 0.3; /* Ajusta según gusto */
 }
 
 .mxd-promo__content,
 .mxd-promo__images {
   position: relative;
-  z-index: 2;
+  z-index: 2; /* Texto e imágenes encima */
 }
+
