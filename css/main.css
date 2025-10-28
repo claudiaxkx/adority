@@ -6258,15 +6258,15 @@ form textarea:required:valid {
 
 .mxd-promo__bg {
   position: absolute;
-  top: -4rem;
-  right: -10rem;
-  width: 70%;
-  height: -moz-calc(100% + 4rem);
-  height: calc(100% + 4rem);
+  top: 0;               /* antes estaba -4rem, la hacía salir del bloque */
+  right: 0;             /* antes -10rem, también la movía */
+  width: 100%;          /* antes 70%, hacía que no ocupe todo */
+  height: 100%;
+  background-image: url('./img/icons/fondo.jpg'); /* <-- tu imagen aquí */
   background-repeat: no-repeat;
-  background-position: left center;
-  -moz-background-size: cover;
-       background-size: cover;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
 }
 @media only screen and (min-width: 1200px) {
   .mxd-promo__bg {
