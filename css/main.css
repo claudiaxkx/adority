@@ -21027,3 +21027,12 @@ form textarea:required:valid {
 /* ------------------------------------------------*/
 /* Features - Project Details End */
 /* ------------------------------------------------*/
+.mxd-promo__bg {
+  z-index: 0;
+}
+
+.mxd-promo__content,
+.mxd-promo__images {
+  position: relative;
+  z-index: 2;
+}
