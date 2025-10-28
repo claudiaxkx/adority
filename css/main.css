@@ -21028,22 +21028,29 @@ form textarea:required:valid {
 /* ------------------------------------------------*/
 /* Features - Project Details End */
 /* ------------------------------------------------*/
+.mxd-promo {
+  position: relative;
+  z-index: 0;
+}
+
+.mxd-promo__inner {
+  position: relative;
+  z-index: 1;
+}
+
 .mxd-promo__bg {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0; /* reemplaza top/right/bottom/left */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 0; /* Fondo atrás */
-  opacity: 0.3; /* Ajusta según gusto */
+  z-index: -1; /* 🔥 Fondo definitivamente atrás */
+  opacity: 0.3; /* Ajusta visibilidad */
 }
 
 .mxd-promo__content,
 .mxd-promo__images {
   position: relative;
-  z-index: 2; /* Texto e imágenes encima */
+  z-index: 10; /* 🔝 Forzamos que queden encima */
 }
 
