@@ -21027,4 +21027,10 @@ form textarea:required:valid {
 /* ------------------------------------------------*/
 /* Features - Project Details End */
 /* ------------------------------------------------*/
+.footer-empty-space {
+  width: 100%;
+  height: 120px; /* ajusta según cuánto espacio quieras */
+  background: transparent; /* sin color ni imagen */
+  display: block;
+}
 
