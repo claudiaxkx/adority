@@ -47,6 +47,20 @@
     <!-- Custom Browser Color End -->
     
   </head>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const hamburger = document.querySelector(".mxd-nav__hamburger");
+    const menuWrapper = document.querySelector(".mxd-menu__wrapper");
+
+    if (hamburger && menuWrapper) {
+      hamburger.addEventListener("click", function(e) {
+        e.preventDefault();
+        menuWrapper.classList.toggle("active");
+        hamburger.classList.toggle("active");
+      });
+    }
+  });
+</script>
 
   <body>
 

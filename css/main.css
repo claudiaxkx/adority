@@ -21033,4 +21033,7 @@ form textarea:required:valid {
   background: transparent; /* sin color ni imagen */
   display: block;
 }
+.mxd-menu__wrapper.active {
+  display: flex; /* 🔥 hace visible el menú */
+}
 
