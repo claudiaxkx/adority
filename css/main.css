@@ -6253,15 +6253,15 @@ form textarea:required:valid {
 .mxd-promo__bg {
   position: absolute;
   top: 0;
-  right: 0;                /* ✅ pegado a la derecha */
-  width: 50%;              /* ✅ ocupa la mitad derecha del bloque */
+  right: 0;                 /* ✅ la ancla al borde derecho */
+  width: 50%;               /* ✅ que ocupe solo la mitad derecha */
   height: 100%;
   background-image: url("./img/icons/Libro.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: right center; /* 👈 fuerza la parte visible a la derecha */
   background-repeat: no-repeat;
-  z-index: 0;              /* detrás del contenido */
-  opacity: 0.3;            /* opcional: más claro */
+  z-index: 0;               /* ✅ detrás del contenido */
+  opacity: 0.35;            /* opcional, ajusta visibilidad */
 }
 
 @media only screen and (min-width: 1200px) {
