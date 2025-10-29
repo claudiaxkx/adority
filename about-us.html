@@ -47,20 +47,11 @@
     <!-- Custom Browser Color End -->
     
   </head>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const hamburger = document.querySelector(".mxd-nav__hamburger");
-    const menuWrapper = document.querySelector(".mxd-menu__wrapper");
-
-    if (hamburger && menuWrapper) {
-      hamburger.addEventListener("click", function(e) {
-        e.preventDefault();
-        menuWrapper.classList.toggle("active");
-        hamburger.classList.toggle("active");
-      });
-    }
-  });
-</script>
+<!-- Scripts -->
+<script src="js/libs.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
 
   <body>
 
@@ -78,79 +69,76 @@
     <!-- Loader End -->
 
     <!-- Hamburger Start -->
-      <div class="mxd-nav__contain loading__fade">
-        <a href="#0" class="mxd-nav__hamburger">
-          <!-- flip element -->
-          <div class="hamburger__base"></div>
-          <div class="hamburger__line"></div>
-          <div class="hamburger__line"></div>
-        </a>
-      </div>
-      <!-- Hamburger End -->
+    <div class="mxd-nav__contain loading__fade">
+      <a href="#0" class="mxd-nav__hamburger">
+        <div class="hamburger__base"></div>
+        <div class="hamburger__line"></div>
+        <div class="hamburger__line"></div>
+      </a>
+    </div>
+    <!-- Hamburger End -->
 
-      <!-- Main Navigation Start -->
-      <div class="mxd-menu__wrapper">
-        <!-- background active layer -->
-        <div class="mxd-menu__base"></div>
-        <!-- menu container -->
-        <div class="mxd-menu__contain">
-          <div class="mxd-menu__inner">
-            <!-- left side -->
-            <div class="mxd-menu__left">
-              <p class="mxd-menu__caption menu-fade-in">Diseño innovador<br>y desarrollo digital</p>
-              <div class="main-menu">
-                <nav class="main-menu__content">
-                  <ul id="main-menu" class="main-menu__accordion">
-                    <li class="main-menu__item">
-                      <a class="main-menu__link btn btn-anim" href="index.html">
-                        <span class="btn-caption">Inicio</span>
-                      </a>
-                    </li>
-                    <li class="main-menu__item">
-                      <a class="main-menu__link btn btn-anim" href="about-us.html">
-                        <span class="btn-caption">Nosotros</span>
-                      </a>
-                    </li>
-                    <li class="main-menu__item">
-                      <a class="main-menu__link btn btn-anim" href="works-simple.html">
-                        <span class="btn-caption">Trabajos</span>
-                      </a>
-                    </li>
-                    <li class="main-menu__item">
-                      <a class="main-menu__link btn btn-anim" href="services.html">
-                        <span class="btn-caption">Servicios</span>
-                      </a>
-                    </li>
-                    <li class="main-menu__item">
-                      <a class="main-menu__link btn btn-anim" href="contact.html">
-                        <span class="btn-caption">Contacto</span>
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
+    <!-- Main Navigation Start -->
+    <div class="mxd-menu__wrapper">
+      <div class="mxd-menu__base"></div>
+      <div class="mxd-menu__contain">
+        <div class="mxd-menu__inner">
+          <div class="mxd-menu__left">
+            <p class="mxd-menu__caption menu-fade-in">Diseño innovador<br>y desarrollo digital</p>
+            <div class="main-menu">
+              <nav class="main-menu__content">
+                <ul id="main-menu" class="main-menu__accordion">
+                  <li class="main-menu__item">
+                    <a class="main-menu__link btn btn-anim" href="index.html">
+                      <span class="btn-caption">Inicio</span>
+                    </a>
+                  </li>
+                  <li class="main-menu__item">
+                    <a class="main-menu__link btn btn-anim" href="about-us.html">
+                      <span class="btn-caption">Nosotros</span>
+                    </a>
+                  </li>
+                  <li class="main-menu__item">
+                    <a class="main-menu__link btn btn-anim" href="works-simple.html">
+                      <span class="btn-caption">Trabajos</span>
+                    </a>
+                  </li>
+                  <li class="main-menu__item">
+                    <a class="main-menu__link btn btn-anim" href="services.html">
+                      <span class="btn-caption">Servicios</span>
+                    </a>
+                  </li>
+                  <li class="main-menu__item">
+                    <a class="main-menu__link btn btn-anim" href="contact.html">
+                      <span class="btn-caption">Contacto</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
-            <!-- right side -->
+          </div>
 
-            <!-- data bottom line -->
-            <div class="mxd-menu__data menu-fade-in">
-              <p class="t-xsmall">
-                
-                
-                
-                <a class="no-effect" href="./img/icons/logoadority.png" target="_blank"></a>
-              </p>
-              <p class="t-xsmall">
-                <i class="ph ph-copyright"></i>
-                Adority Studio 2025
-              </p>
-            </div>
+          <div class="mxd-menu__data menu-fade-in">
+            <p class="t-xsmall">
+              <a class="no-effect" href="./img/icons/logoadority.png" target="_blank"></a>
+            </p>
+            <p class="t-xsmall">
+              <i class="ph ph-copyright"></i>
+              Adority Studio 2025
+            </p>
           </div>
         </div>
       </div>
-      <!-- Main Navigation End -->
+    </div>
+    <!-- Main Navigation End -->
 
-    </nav>
+    <!-- Scripts deben ir AQUÍ -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
+
     <!-- Menu & Menu Hamburger End -->
 
     <!-- Header Start -->
