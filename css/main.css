@@ -6222,21 +6222,15 @@ form textarea:required:valid {
 .mxd-promo__inner {
   position: relative;
   width: 100%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-     -moz-box-orient: vertical;
-     -moz-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: space-between; /* texto izquierda, imágenes derecha */
+  align-items: center;
   background-color: var(--base-opp);
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
   overflow: hidden;
 }
+
 @media only screen and (min-width: 768px) {
   .mxd-promo__inner {
     padding-left: 5rem;
@@ -21055,15 +21049,12 @@ form textarea:required:valid {
 }
 /* --- Reajuste de posición de las imágenes en el CTA --- */
 .mxd-promo__images {
-  display: flex;
-  justify-content: flex-end; /* ⬅️ Envía las imágenes a la derecha */
-  align-items: flex-end;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 46%;
+  position: relative;
+  width: 50%;
   height: 100%;
-  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .mxd-promo__images .promo-image-1 {
@@ -21071,38 +21062,15 @@ form textarea:required:valid {
   right: 6rem;
   bottom: 6rem;
   width: 330px;
-  height: auto;
 }
 
 .mxd-promo__images .promo-image-2 {
   position: absolute;
-  right: 16rem; /* ajusta este valor si quieres más o menos separación */
+  right: 16rem;
   bottom: 12rem;
   width: 120px;
-  height: auto;
 }
-/* 🔧 Asegura que el bloque CTA use todo el ancho */
-.mxd-promo,
-.mxd-promo__inner {
-  width: 100%;
+.mxd-promo__content {
+  width: 50%;
+  z-index: 10;
 }
-
-/* 🔧 Asegura que el contenedor del CTA no tenga márgenes o padding que empujen el contenido */
-.mxd-block,
-.mxd-section,
-.mxd-container {
-  position: relative;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-/* 🔧 Opcional: Si sigue desalineado, forzamos la posición absoluta */
-.mxd-promo__images {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  height: auto;
-}
-
