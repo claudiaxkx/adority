@@ -2745,7 +2745,7 @@ p.t-semibold {
 }
 @media only screen and (min-width: 768px) {
   .btn-line-headline {
-    font-size:
+    font-size: 8rem;
     margin-top: 0;
   }
   .btn-line-headline i {
@@ -21032,5 +21032,8 @@ form textarea:required:valid {
   height: 300px; /* ajusta según cuánto espacio quieras */
   background: transparent; /* sin color ni imagen */
   display: block;
+}
+.footer-blocks__card a {
+  font-size: 0.85rem !important; /* o 13px */
 }
 
