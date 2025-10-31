@@ -2743,9 +2743,9 @@ p.t-semibold {
   font-size: 3.1rem;
   overflow: hidden;
 }
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 768px) {
   .btn-line-headline {
-    font-size: 8rem;
+    font-size:
     margin-top: 0;
   }
   .btn-line-headline i {
