@@ -497,12 +497,19 @@ background-image: url('../img/icons/boy2.png');
 }
 
 .headline-img-06::before {
-  background-image: url('../img/favicon/brillo.png');
+  background-image: url('../img/icons/boy2.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* esto da el efecto parallax */
+  height: 400px;
 }
 
 .headline-img-07::before {
-  background-image: url(https://dummyimage.com/400x200/5d5d5d/838383);
-}
+  background-image: url('../img/icons/boy2.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* esto da el efecto parallax */
+  height: 400px;
 
 .image-values-1 {
   background-image: url(https://dummyimage.com/1200x1600/5d5d5d/838383);
