@@ -21051,4 +21051,14 @@ form textarea:required:valid {
 .footer-blocks__card a {
   font-size: 0.85rem !important; /* o 13px */
 }
+body {
+  opacity: 1 !important;
+  visibility: visible !important;
+  overflow: visible !important;
+}
+.animsition,
+.page-loader,
+.preloader {
+  display: none !important;
+}
 
