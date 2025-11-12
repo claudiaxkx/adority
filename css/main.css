@@ -401,40 +401,35 @@
 }
 
 .divider-image-5 {
-  background-image: url('../img/icons/boy2.png');
+  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
 .divider-image-6 {
-  background-image: url('../img/icons/boy2.png');
+  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
 .divider-image-7 {
-  background-image: url('../img/icons/boy2.png');
+  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
 .divider-image-8 {
-background-image: url('../img/icons/boy2.png');
-
+  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
 .divider-image-9 {
-  background-image: url('../img/icons/boy2.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* esto da el efecto parallax */
-  height: 400px;
+  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
 .divider-image-10 {
-  background-image: url('../img/icons/boy2.png');
+ background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
 .mxd-promo__bg {
-  background-image: url('../img/icons/boy2.png');
+  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
 .preview-image-1 {
-  background-image: url('../img/icons/boy2.png');
+  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
 .preview-image-2 {
@@ -494,24 +489,15 @@ background-image: url('../img/icons/boy2.png');
 }
 
 .headline-img-06::before {
-  background-image: url('../img/icons/boy2.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* esto da el efecto parallax */
-  height: 400px;
+  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
 .headline-img-07::before {
-  background-image: url('../img/icons/boy2.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* esto da el efecto parallax */
-  height: 400px; /* altura del fondo */
+ background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
-
 .image-values-1 {
-  background-image: url('../img/icons/boy2.png');
+ background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
 }
 
 .image-values-2 {
