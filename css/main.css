@@ -418,6 +418,9 @@
 
 .divider-image-9 {
   background-image: url('../img/icons/boy2.png');
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* puedes ajustar el alto */
 }
 
 .divider-image-10 {
