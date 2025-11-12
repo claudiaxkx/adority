@@ -414,10 +414,7 @@
 
 .divider-image-8 {
 background-image: url('../img/icons/boy2.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* esto da el efecto parallax */
-  height: 400px;
+
 }
 
 .divider-image-9 {
@@ -509,7 +506,9 @@ background-image: url('../img/icons/boy2.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* esto da el efecto parallax */
-  height: 400px;
+  height: 400px; /* altura del fondo */
+}
+
 
 .image-values-1 {
   background-image: url('../img/icons/boy2.png');
@@ -19654,20 +19653,17 @@ form textarea:required:valid {
 .mxd-tech-stack-cards.grid-cards {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
 }
 @media only screen and (min-width: 768px) {
   .mxd-tech-stack-cards.grid-cards {
-    -ms-grid-columns: (1fr)[3];
     grid-template-columns: repeat(3, 1fr);
   }
 }
 @media only screen and (min-width: 1400px) {
   .mxd-tech-stack-cards.grid-cards {
-    -ms-grid-columns: (1fr)[4];
     grid-template-columns: repeat(4, 1fr);
   }
 }
@@ -21051,14 +21047,3 @@ form textarea:required:valid {
 .footer-blocks__card a {
   font-size: 0.85rem !important; /* o 13px */
 }
-body {
-  opacity: 1 !important;
-  visibility: visible !important;
-  overflow: visible !important;
-}
-.animsition,
-.page-loader,
-.preloader {
-  display: none !important;
-}
-
