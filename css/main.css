@@ -420,7 +420,8 @@
   background-image: url('../img/icons/boy2.png');
   background-size: cover;
   background-position: center;
-  height: 400px; /* puedes ajustar el alto */
+  background-attachment: fixed; /* esto da el efecto parallax */
+  height: 400px;
 }
 
 .divider-image-10 {
