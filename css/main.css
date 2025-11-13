@@ -437,7 +437,7 @@
 }
 
 .preview-image-3 {
-  background-image: url(https://dummyimage.com/1400x1400/5d5d5d/838383);
+  background-image: url(../img/icons/boy2.png);
 }
 
 .preview-image-4 {
@@ -465,7 +465,7 @@
 }
 
 .blog-preview-image-3 {
-  background-image: url(https://dummyimage.com/1000x1250/5d5d5d/838383);
+  background-image: url(../img/icons/boy2.png);
 }
 
 .headline-img-01::before {
