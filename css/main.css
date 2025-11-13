@@ -471,7 +471,7 @@
 }
 
 .headline-img-03::after {
-  background-image: url(https://dummyimage.com/400x200/5d5d5d/838383);
+  background-image: url(../img/favicon/brillo.png);
 }
 
 .headline-img-04::before {
@@ -483,7 +483,7 @@
 }
 
 .headline-img-06::before {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: url(../img/favicon/brillo.png);
 }
 
 .headline-img-07::before {
@@ -491,11 +491,11 @@
 }
 
 .image-values-1 {
- background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+ background-image: url(../img/icons/young.png);
 }
 
 .image-values-2 {
-  background-image: url(https://dummyimage.com/1600x1200/5d5d5d/838383);
+  background-image: url(../img/icons/young.png);
 }
 
 .prj-details-img-01 {
