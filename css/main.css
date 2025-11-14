@@ -2726,7 +2726,7 @@ p.t-semibold {
       -ms-flex-align: end;
           align-items: flex-end;
   width: auto;
-  font: normal var(--fw-medium) 3.6rem/1.1 var(--_font-accent);
+  font: normal var(--fw-medium) 3.4rem/1.1 var(--_font-accent);
   letter-spacing: -0.06rem;
   color: var(--t-muted-extra);
   margin-top: 1rem;
