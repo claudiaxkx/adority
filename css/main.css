@@ -6763,7 +6763,7 @@ form textarea:required:valid {
   color: var(--t-bright);
 }
 .footer-nav__link .btn-caption {
-  height: 3.6rem;
+  height: 4.6rem;
   line-height: 1.2;
 }
 @media only screen and (min-width: 768px) {
