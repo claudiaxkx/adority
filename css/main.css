@@ -21037,3 +21037,20 @@ form textarea:required:valid {
     object-position: center;
   }
 }
+/* ----- FIX PARA QUE LA IMAGEN DEL PARALLAX LLENE EN CELULAR ----- */
+@media only screen and (max-width: 767px) {
+
+  .mxd-divider__image {
+    height: 350px; /* ajustable */
+    overflow: hidden;
+    position: relative;
+  }
+
+  .mxd-divider__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+}
