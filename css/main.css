@@ -21023,34 +21023,20 @@ form textarea:required:valid {
 /* ------------------------------------------------*/
 /* Features - Project Details End */
 /* ------------------------------------------------*/
-/* --- PARA CELULAR --- */
-@media only screen and (max-width: 767px) {
-  .mxd-divider__image {
-    height: 300px; /* puedes subirlo a 350 o 400 si quieres más espacio */
-    overflow: hidden;
-  }
-
-  .mxd-divider__image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    object-position: center;
-  }
-}
-/* ----- FIX PARA QUE LA IMAGEN DEL PARALLAX LLENE EN CELULAR ----- */
+/* ----- FIX FINAL PARA QUE LA IMAGEN LLENE EN CELULAR ----- */
 @media only screen and (max-width: 767px) {
 
   .mxd-divider__image {
-    height: 350px; /* ajustable */
-    overflow: hidden;
-    position: relative;
+    height: 380px !important;
+    overflow: hidden !important;
+    position: relative !important;
   }
 
   .mxd-divider__image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block !important;
   }
 }
