@@ -21023,32 +21023,24 @@ form textarea:required:valid {
 /* ------------------------------------------------*/
 /* Features - Project Details End */
 /* ------------------------------------------------*/
-/* ----- FIX FINAL PARA QUE LA IMAGEN LLENE EN CELULAR ----- */
+
 @media only screen and (max-width: 767px) {
 
   .mxd-divider__image {
-    height: 380px !important;
-    overflow: hidden !important;
-    position: relative !important;
+    position: relative;
+    overflow: hidden;
   }
 
   .mxd-divider__image img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-    object-position: center !important;
-    display: block !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    display: block;
   }
 }
-@media only screen and (max-width: 767px) {
 
-  .mxd-section,
-  .padding-hero-01,
-  .padding-pre-manifest,
-  .mobile-point-subtitle,
-  .mxd-container,
-  .mxd-divider {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-}
