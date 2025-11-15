@@ -21033,13 +21033,18 @@ form textarea:required:valid {
   }
 
   .mxd-divider__image img {
-    width: 100% !important;
-    height: 100% !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: auto !important;
+    height: 120% !important;    /* Aumenta para rellenar la parte inferior */
+    min-width: 100% !important;
+    transform: translate(-50%, -50%) !important;
     object-fit: cover !important;
     object-position: center !important;
     display: block !important;
-  }
 }
+
 @media only screen and (max-width: 767px) {
 
   .mxd-section,
