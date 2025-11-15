@@ -21023,13 +21023,14 @@ form textarea:required:valid {
 /* ------------------------------------------------*/
 /* Features - Project Details End */
 /* ------------------------------------------------*/
-/* ----- FIX FINAL PARA QUE LA IMAGEN LLENE EN CELULAR ----- */
+
 @media only screen and (max-width: 767px) {
 
   .mxd-divider__image {
-    height: 380px !important;
-    overflow: hidden !important;
+    height: 380px !important;   /* tu altura fija */
     position: relative !important;
+    overflow: hidden !important;
+    border-radius: 30px !important; /* ajusta al borde de tu diseño */
   }
 
   .mxd-divider__image img {
@@ -21037,23 +21038,12 @@ form textarea:required:valid {
     top: 50% !important;
     left: 50% !important;
     width: auto !important;
-    height: 120% !important;    /* Aumenta para rellenar la parte inferior */
-    min-width: 100% !important;
+    height: 130% !important;  /* más relleno, elimina borde inferior */
+    min-width: 110% !important;
     transform: translate(-50%, -50%) !important;
     object-fit: cover !important;
     object-position: center !important;
+    border-radius: 30px !important; /* IMPORTANTÍSIMO para que se vean las puntas redondas */
     display: block !important;
-}
-
-@media only screen and (max-width: 767px) {
-
-  .mxd-section,
-  .padding-hero-01,
-  .padding-pre-manifest,
-  .mobile-point-subtitle,
-  .mxd-container,
-  .mxd-divider {
-    padding: 0 !important;
-    margin: 0 !important;
   }
 }
