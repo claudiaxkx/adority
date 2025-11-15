@@ -381,99 +381,98 @@
 /* Template Backgrounds Start */
 /* ------------------------------------------------*/
 .about-image-1 {
-  background-image: url(https://dummyimage.com/1400x1000/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .divider-image-1 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .divider-image-2 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .divider-image-3 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .divider-image-4 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .divider-image-5 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: none !important;
 }
-
 .divider-image-6 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .divider-image-7 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .divider-image-8 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .divider-image-9 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .divider-image-10 {
- background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+ background-image: none !important;
 }
 
 .mxd-promo__bg {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .preview-image-1 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .preview-image-2 {
-  background-image: url(https://dummyimage.com/1400x1400/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .preview-image-3 {
-  background-image: url(../img/favicon/brillo.png);
+  background-image: none !important;
 }
 
 .preview-image-4 {
-  background-image: url(https://dummyimage.com/1400x1400/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .preview-image-5 {
-  background-image: url(https://dummyimage.com/1400x1400/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .preview-image-6 {
-  background-image: url(https://dummyimage.com/1400x1400/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .preview-image-7 {
-  background-image: url(https://dummyimage.com/1400x1400/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .blog-preview-image-1 {
-  background-image: url(https://dummyimage.com/1000x1250/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .blog-preview-image-2 {
-  background-image: url(https://dummyimage.com/1000x1250/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .blog-preview-image-3 {
-  background-image: url(https://dummyimage.com/1000x1250/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .headline-img-01::before {
-  background-image: url(https://dummyimage.com/400x200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .headline-img-02::before {
-  background-image: url(https://dummyimage.com/400x200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .headline-img-03::after {
@@ -485,7 +484,7 @@
 }
 
 .headline-img-05::before {
-  background-image: url(https://dummyimage.com/400x200/5d5d5d/838383);
+  background-image: none !important;
 }
 
 .headline-img-06::before {
@@ -493,7 +492,7 @@
 }
 
 .headline-img-07::before {
- background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+ background-image: none !important;
 }
 
 .image-values-1 {
@@ -505,11 +504,11 @@
 }
 
 .prj-details-img-01 {
-  background-image: url(https://dummyimage.com/1920x1200/414141/636363);
+  background-image: none !important;
 }
 
 .prj-details-img-02 {
-  background-image: url(https://dummyimage.com/1920x1200/414141/636363);
+  background-image: none !important;
 }
 
 /* ------------------------------------------------*/
