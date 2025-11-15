@@ -21036,11 +21036,10 @@ form textarea:required:valid {
     top: 50%;
     left: 50%;
     width: auto;
-    height: 100%;
-    min-width: 100%;
+    height: 120%;     /* sube o baja este valor */
     transform: translate(-50%, -50%);
     object-fit: cover;
     display: block;
-  }
 }
+
 
