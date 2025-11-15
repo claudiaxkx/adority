@@ -21047,3 +21047,20 @@ form textarea:required:valid {
     display: block !important;
   }
 }
+/* Ajuste para remover el espacio vacío donde iban los tags */
+.mxd-services-cards__tags {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Hace que el párrafo suba */
+.mxd-services-stack__info {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Por si el párrafo tiene margen extra */
+.mxd-services-stack__info p {
+  margin-top: 0 !important;
+}
