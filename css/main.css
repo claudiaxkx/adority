@@ -21040,3 +21040,15 @@ form textarea:required:valid {
     display: block !important;
   }
 }
+@media only screen and (max-width: 767px) {
+
+  .mxd-section,
+  .padding-hero-01,
+  .padding-pre-manifest,
+  .mobile-point-subtitle,
+  .mxd-container,
+  .mxd-divider {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
