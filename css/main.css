@@ -21069,6 +21069,19 @@ form textarea:required:valid {
   display: none !important;
 }
 /* --------------------------- */
+.hover-reveal__content {
+  width: auto !important;
+  height: auto !important;
+}
+
+.hover-reveal__image {
+  width: 60px !important;   /* prueba tamaño pequeño */
+  height: auto !important;
+  max-width: none !important;
+  max-height: none !important;
+  transform: none !important;
+  object-fit: contain !important;
+}
 
 
 
