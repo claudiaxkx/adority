@@ -21055,14 +21055,21 @@ form textarea:required:valid {
 .mxd-services-stack__info p {
   margin-top: 0 !important;
 }
-/* FIX: eliminar espaciote entre título y texto en desktop */
+
+/* FIX FINAL: eliminar espaciote entre title y subtítulo en desktop */
 @media (min-width: 1024px) {
   .mxd-services-stack__title {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0.4rem !important;
   }
 
   .mxd-services-stack__info {
     margin-top: 0 !important;
   }
 }
+
+/* FIX en todos los tamaños si hay un margen escondido */
+.mxd-services-stack__info p {
+  margin-top: 0 !important;
+}
+
 
