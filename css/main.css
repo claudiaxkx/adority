@@ -21116,6 +21116,16 @@ form textarea:required:valid {
   }
 }
 
+@media (max-width: 767px) {
+  .mxd-hero-01__data-wrap,
+  .mxd-hero-01__bottom,
+  .mxd-hero-01__data-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+}
 
 
 
