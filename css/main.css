@@ -21068,13 +21068,53 @@ form textarea:required:valid {
   width: auto !important;
   height: auto !important;
 }
-@media (max-width: 767px) {
+
+
+
+/* FIX ESPACIO HERO (MÓVIL) */
+@media only screen and (max-width: 767px) {
+  /* Reduce el padding de la parte superior (título) */
+  .mxd-hero-01__top {
+    padding-top: 6rem !important;    /* antes 11.5rem */
+    padding-bottom: 6rem !important; /* antes 12.9rem */
+  }
+
+  /* Reduce el padding enorme que empuja todo */
+  .mxd-hero-01__data-wrap {
+    padding: 2.4rem 0 1.6rem 0 !important; /* antes 14rem 0 13.2rem 0 */
+  }
+
+  /* Acomoda el contenedor inferior por si tiene gaps heredados */
   .mxd-hero-01__bottom {
+    gap: 0.6rem !important;
     margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* Botón circular — reduce tamaño visual */
+  .btn-rotating-120-160,
+  .btn-rotating-160,
+  .btn-rotating-180,
+  .btn-rotating-blur-outline,
+  .btn-rotating {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .btn-rotating .btn-rotating__text {
+    width: 100px !important;
+    height: 100px !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+  .btn-rotating .btn-rotating__image {
+    width: 3.4rem !important; /* ajusta si quieres más pequeño/grande */
+  }
+
+  /* Elimina márgenes extra del botón de data */
+  .mxd-hero-01__data-btn {
+    margin-bottom: 0.6rem !important; /* antes 3.1rem */
   }
 }
-
-
 
 
 
