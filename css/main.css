@@ -2725,7 +2725,7 @@ p.t-semibold {
       -ms-flex-align: end;
           align-items: flex-end;
   width: auto;
-  font: normal var(--fw-medium) 0.875rem/1.1 var(--_font-accent);
+  font: normal var(--fw-medium) 2rem/1.1 var(--_font-accent);
   letter-spacing: -0.06rem;
   color: var(--t-muted-extra);
   margin-top: 1rem;
@@ -2739,7 +2739,7 @@ p.t-semibold {
   position: relative;
 }
 .btn-line-headline i {
-  font-size: 3.1rem;
+  font-size: 2rem;
   overflow: hidden;
 }
 @media only screen and (min-width: 768px) {
@@ -2748,15 +2748,15 @@ p.t-semibold {
     margin-top: 0;
   }
   .btn-line-headline i {
-    font-size: 6.7rem;
+    font-size: 2rem;
   }
 }
 @media only screen and (min-width: 1200px) {
   .btn-line-headline {
-    font-size: 10rem;
+    font-size: 2rem;
   }
   .btn-line-headline i {
-    font-size: 8.7rem;
+    font-size: 2rem;
   }
   .no-touch .btn-line-headline:hover {
     color: var(--accent);
@@ -2764,10 +2764,10 @@ p.t-semibold {
 }
 @media only screen and (min-width: 1600px) {
   .btn-line-headline {
-    font-size: 12rem;
+    font-size: 2rem;
   }
   .btn-line-headline i {
-    font-size: 10.1rem;
+    font-size: 2rem;
   }
 }
 
