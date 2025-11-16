@@ -478,14 +478,14 @@
 .headline-img-03::after {
   content: "";
   display: inline-block;
-  width: 6rem;           /* ancho deseado */
-  height: 3.2rem;        /* altura proporcional */
-  border-radius: 4.2rem; /* opcional, si quieres esquinas redondeadas */
-  margin-right: 1.6rem;  /* opcional, si quieres separarlo de otros elementos */
+  width: 10rem;          /* más ancho */
+  height: 5.3rem;        /* altura proporcional */
+  border-radius: 4.2rem; /* mantiene esquinas redondeadas */
+  margin-right: 1.6rem;  
   background-image: url(../img/favicon/brillo.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; /* mantiene la proporción sin deformar */
+  background-size: contain; /* no se deforma */
 }
 
 .headline-img-04::before {
