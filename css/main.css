@@ -21103,4 +21103,8 @@ form textarea:required:valid {
 .form-container {
   padding-left: 0 !important;
 }
+.col-12.col-xl-10.mxd-grid-item {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 
