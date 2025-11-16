@@ -21070,9 +21070,10 @@ form textarea:required:valid {
 }
 @media (max-width: 767px) {
   .mxd-hero-01__bottom {
-    margin-top: 2rem !important; /* o 0 si quieres que quede pegado */
+    margin-top: 0 !important;
   }
 }
+
 
 
 
