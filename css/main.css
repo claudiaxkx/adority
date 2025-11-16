@@ -7766,6 +7766,15 @@ form textarea:required:valid {
     height: 9.2rem;
   }
 }
+@media (max-width: 767px) {
+  .hero-01-title {
+    gap: 0.4rem !important;
+  }
+
+  .hero-01-title__row {
+    gap: 0.2rem !important;
+  }
+}
 
 .mxd-hero-01__images {
   position: absolute;
