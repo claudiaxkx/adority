@@ -21055,3 +21055,13 @@ form textarea:required:valid {
 .mxd-services-stack__info p {
   margin-top: 0 !important;
 }
+/* Reducir espacio entre título y texto en pantallas grandes */
+@media (min-width: 1024px) {
+  .mxd-services-stack__title {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .mxd-services-stack__info {
+    margin-top: 0 !important;
+  }
+}
