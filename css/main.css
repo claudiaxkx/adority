@@ -21056,20 +21056,18 @@ form textarea:required:valid {
   margin-top: 0 !important;
 }
 
-/* FIX FINAL: eliminar espaciote entre title y subtítulo en desktop */
+/* FIX FINAL para eliminar el espaciote en escritorio */
 @media (min-width: 1024px) {
+
   .mxd-services-stack__title {
-    margin-bottom: 0.4rem !important;
+    margin-bottom: 0.4rem !important; /* antes tenía 2rem */
   }
 
   .mxd-services-stack__info {
-    margin-top: 0 !important;
+    margin-top: 0 !important; /* antes tenía 2rem */
   }
+
 }
 
-/* FIX en todos los tamaños si hay un margen escondido */
-.mxd-services-stack__info p {
-  margin-top: 0 !important;
-}
 
 
