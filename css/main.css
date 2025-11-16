@@ -5535,9 +5535,16 @@ form textarea:required:valid {
   display: flex;
   gap: 1rem;
 }
+
 .mxd-header__controls {
   justify-content: flex-start;
 }
+
+/* 👉 mover solo el botón "Contáctanos" */
+.mxd-header__controls a.btn {
+  margin-left: -1rem; /* ajusta si lo quieres más pegado */
+}
+
 
 @media only screen and (min-width: 768px) {
   .mxd-header__controls {
