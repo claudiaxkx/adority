@@ -1481,15 +1481,13 @@ html.lenis, html.lenis body {
 .inner-headline__title.headline-img-after::after {
   content: "";
   display: inline-block;
-  width: 8rem;
-  height: 4.3rem;
-  -moz-border-radius: 4.2rem;
-       border-radius: 4.2rem;
-  margin-left: 1.6rem;
+  width: 6rem;           /* ancho reducido */
+  height: 3.2rem;        /* altura proporcional */
+  border-radius: 4.2rem; /* se mantiene igual si quieres esquinas redondeadas */
+  margin-right: 1.6rem;
   background-repeat: no-repeat;
   background-position: center;
-  -moz-background-size: cover;
-       background-size: cover;
+  background-size: contain; /* mantiene la proporción de la imagen */
 }
 @media only screen and (min-width: 768px) {
   .inner-headline__title.headline-img-before::before {
