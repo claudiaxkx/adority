@@ -2713,52 +2713,48 @@ p.t-semibold {
 
 .btn-line-headline {
   gap: 1rem;
-  -webkit-box-pack: start;
-     -moz-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: end;
-     -moz-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  justify-content: flex-start;
+  align-items: flex-end;
   width: auto;
-  font: normal var(--fw-medium) 10rem/1.1 var(--_font-accent);
+  font: normal var(--fw-medium) 3rem/1.1 var(--_font-accent); /* mobile */
   letter-spacing: -0.06rem;
   color: var(--t-muted-extra);
   margin-top: 1rem;
 }
+
 .btn-line-headline i,
 .btn-line-headline .btn-caption {
-  display: -webkit-inline-box;
-  display: -moz-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   position: relative;
 }
+
+/* Icono en mobile */
 .btn-line-headline i {
-  font-size: 10rem;
+  font-size: 3rem;
   overflow: hidden;
 }
+
+/* Tablet */
 @media only screen and (min-width: 768px) {
   .btn-line-headline {
     font-size: 5rem;
-    margin-top: 0;
   }
   .btn-line-headline i {
-    font-size: 10rem;
+    font-size: 5rem;
   }
 }
+
+/* Desktop */
 @media only screen and (min-width: 1200px) {
   .btn-line-headline {
     font-size: 7rem;
   }
   .btn-line-headline i {
-    font-size: 10rem;
-  }
-  .no-touch .btn-line-headline:hover {
-    color: var(--accent);
+    font-size: 7rem;
   }
 }
+
+/* Monitores grandes */
 @media only screen and (min-width: 1600px) {
   .btn-line-headline {
     font-size: 10rem;
@@ -2767,6 +2763,7 @@ p.t-semibold {
     font-size: 10rem;
   }
 }
+
 
 .btn-default {
   height: 5.6rem;
