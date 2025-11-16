@@ -21079,5 +21079,8 @@ form textarea:required:valid {
   transform: scale(1);
 }
 /* --------------------------- */
+.mxd-color-switcher:disabled {
+  display: none !important; /* lo oculta por completo */
+}
 
 
