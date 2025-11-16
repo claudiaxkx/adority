@@ -5529,21 +5529,14 @@ form textarea:required:valid {
 
 .mxd-header__controls {
   position: relative;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 1rem;
+  justify-content: flex-start !important; /* alinea todo a la izquierda */
+  width: 100%; /* ocupa todo el ancho del contenedor */
 }
 
-.mxd-header__controls {
-  justify-content: flex-start;
-}
-
-/* 👉 mover solo el botón "Contáctanos" */
 .mxd-header__controls a.btn {
-  margin-left: 0 !important; /* primero pegamos contra el switch */
-  /* si quieres más, baja a -0.5rem o -1rem */
+  margin-left: 0 !important; /* botón pegado al borde izquierdo del contenedor */
 }
 
 @media only screen and (min-width: 768px) {
