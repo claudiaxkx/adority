@@ -21055,7 +21055,7 @@ form textarea:required:valid {
 .mxd-services-stack__info p {
   margin-top: 0 !important;
 }
-/* Reducir espacio entre título y texto en pantallas grandes */
+/* FIX: eliminar espaciote entre título y texto en desktop */
 @media (min-width: 1024px) {
   .mxd-services-stack__title {
     margin-bottom: 0.5rem !important;
@@ -21065,3 +21065,4 @@ form textarea:required:valid {
     margin-top: 0 !important;
   }
 }
+
