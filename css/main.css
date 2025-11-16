@@ -21066,14 +21066,16 @@ form textarea:required:valid {
   height: auto !important;
 }
 
-.hover-reveal__image {
-  width: 60px !important;   /* prueba tamaño pequeño */
+/* Reducir solo brillo.png */
+.hover-reveal__image[src*="brillo.png"] {
+  width: 60px !important;     /* Tamaño pequeño del brillo */
   height: auto !important;
-  max-width: none !important;
-  max-height: none !important;
-  transform: none !important;
   object-fit: contain !important;
+  transform: none !important; /* Evita que lo estire */
+  max-width: 60px !important;
+  max-height: 60px !important;
 }
+
 
 
 
