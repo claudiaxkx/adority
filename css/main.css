@@ -21024,8 +21024,7 @@ form textarea:required:valid {
 /* Features - Project Details End */
 /* ------------------------------------------------*/
 
-
-@/* MOBILE FIX */
+/* MOBILE FIX */
 @media only screen and (max-width: 767px) {
 
   .mxd-divider__image {
@@ -21049,7 +21048,7 @@ form textarea:required:valid {
     display: block !important;
   }
 
-}  /* ← ESTA LLAVE FALTABA */
+}  /* ← Cierre correcto */
 
 
 /* FIX FINAL para eliminar el espaciote en escritorio */
