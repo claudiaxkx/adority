@@ -5542,7 +5542,7 @@ form textarea:required:valid {
 
 /* 👉 mover solo el botón "Contáctanos" */
 .mxd-header__controls a.btn {
-  margin-left: -1rem; /* ajusta si lo quieres más pegado */
+  margin-left: -2.5rem; /* ajusta si lo quieres más pegado */
 }
 
 
