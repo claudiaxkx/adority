@@ -21107,13 +21107,4 @@ form textarea:required:valid {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-/* Botón pegado al borde izquierdo del card */
-.footer-blocks__card .mxd-header__controls {
-  justify-content: flex-start !important; /* flex al inicio */
-  padding-left: 0 !important;            /* elimina padding interno */
-}
-
-.footer-blocks__card .mxd-header__controls a.btn {
-  margin-left: 0 !important;             /* botón sin margen */
-}
 
