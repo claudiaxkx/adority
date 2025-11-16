@@ -21132,6 +21132,16 @@ form textarea:required:valid {
     margin-right: auto !important;
   }
 }
+@media (max-width: 767px) {
+  .mxd-hero-01__data-btn {
+    margin-bottom: 3rem !important; /* aumenta o reduce */
+  }
+}
+@media (max-width: 767px) {
+  .mxd-hero-01__data-socials {
+    margin-bottom: 3rem !important; /* ajusta a gusto */
+  }
+}
 
 
 
