@@ -21133,13 +21133,13 @@ form textarea:required:valid {
   }
 }
 @media (max-width: 767px) {
-  .mxd-hero-01__data-btn {
-    margin-bottom: 3rem !important; /* aumenta o reduce */
+  .mxd-hero-01__data-wrap .mxd-hero-01__data-btn {
+    margin-bottom: 3.5rem !important;
   }
 }
 @media (max-width: 767px) {
-  .mxd-hero-01__data-socials {
-    margin-bottom: 3rem !important; /* ajusta a gusto */
+  .mxd-hero-01__data-socials.loading__fade {
+    margin-bottom: 4rem !important;
   }
 }
 
