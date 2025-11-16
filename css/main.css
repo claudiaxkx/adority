@@ -1496,9 +1496,9 @@ html.lenis, html.lenis body {
     margin-right: 2.2rem;
   }
   .inner-headline__title.headline-img-after::after {
-    width: 11rem;
-    height: 5.8rem;
-    margin-left: 2.2rem;
+    width: 6rem;
+    height: 3.2rem;
+    margin-left: 1.6rem;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -1508,9 +1508,9 @@ html.lenis, html.lenis body {
     margin-right: 2.6rem;
   }
   .inner-headline__title.headline-img-after::after {
-    width: 14rem;
-    height: 7rem;
-    margin-left: 2.6rem;
+    width: 6rem;
+    height: 3.2rem;
+    margin-left: 1.6rem;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -1520,9 +1520,9 @@ html.lenis, html.lenis body {
     margin-right: 3.3rem;
   }
   .inner-headline__title.headline-img-after::after {
-    width: 16rem;
-    height: 8.4rem;
-    margin-left: 3.3rem;
+    width: 6rem;
+    height: 3.2rem;
+    margin-left: 1.6rem;
   }
 }
 
@@ -2736,24 +2736,24 @@ p.t-semibold {
   position: relative;
 }
 .btn-line-headline i {
-  font-size: 2rem;
+  font-size: 5rem;
   overflow: hidden;
 }
 @media only screen and (min-width: 768px) {
   .btn-line-headline {
-    font-size: 2rem;
+    font-size: 5rem;
     margin-top: 0;
   }
   .btn-line-headline i {
-    font-size: 2rem;
+    font-size: 5rem;
   }
 }
 @media only screen and (min-width: 1200px) {
   .btn-line-headline {
-    font-size: 2rem;
+    font-size: 5rem;
   }
   .btn-line-headline i {
-    font-size: 2rem;
+    font-size: 5rem;
   }
   .no-touch .btn-line-headline:hover {
     color: var(--accent);
@@ -2761,10 +2761,10 @@ p.t-semibold {
 }
 @media only screen and (min-width: 1600px) {
   .btn-line-headline {
-    font-size: 2rem;
+    font-size: 5rem;
   }
   .btn-line-headline i {
-    font-size: 2rem;
+    font-size: 5rem;
   }
 }
 
