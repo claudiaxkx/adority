@@ -477,15 +477,14 @@
 
 .headline-img-03::after {
   content: "";
-  display: inline-block;
-  width: 10rem;          /* más ancho */
-  height: 5.3rem;        /* altura proporcional */
-  border-radius: 4.2rem; /* mantiene esquinas redondeadas */
-  margin-right: 1.6rem;  
+  display: block;          /* mejor que inline-block para que respete width/height */
+  width: 10rem;            /* ancho deseado */
+  height: 5.3rem;          /* altura proporcional */
   background-image: url(../img/favicon/brillo.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; /* no se deforma */
+  background-size: contain; /* mantiene proporción */
+  position: relative;       /* necesario si quieres controlar ubicación */
 }
 
 .headline-img-04::before {
