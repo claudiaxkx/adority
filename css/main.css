@@ -21030,7 +21030,6 @@ form textarea:required:valid {
 
 /* MOBILE FIX */
 @media only screen and (max-width: 767px) {
-
   .mxd-divider__image {
     height: 380px !important;
     position: relative !important;
@@ -21051,13 +21050,10 @@ form textarea:required:valid {
     border-radius: 30px !important;
     display: block !important;
   }
-
-}  /* ← Cierre correcto */
-
+}
 
 /* FIX FINAL para eliminar el espaciote en escritorio */
 @media (min-width: 1024px) {
-
   .mxd-services-stack__title {
     margin-bottom: 0.4rem !important;
   }
@@ -21065,8 +21061,8 @@ form textarea:required:valid {
   .mxd-services-stack__info {
     margin-top: 0 !important;
   }
-
 }
+
 /* FIX: mantener animación pero evitar que GSAP empuje los stack-item */
 .services-stack .stack-item {
   transform: none !important;  /* evita el salto */
@@ -21082,5 +21078,29 @@ form textarea:required:valid {
   height: auto !important;
   padding: 0 !important;
   margin: 0 !important;
+}
+
+/* ------------------------- */
+/* FIX botón Contáctanos pegado al contenedor */
+.mxd-header__controls {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start !important; 
+}
+
+.mxd-header__controls a.btn {
+  margin-left: 0 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .mxd-header__controls {
+    gap: 2rem;
+  }
+}
+
+/* quitar padding del contenedor padre para que el botón se pegue a la izquierda */
+.form-container {
+  padding-left: 0 !important;
 }
 
