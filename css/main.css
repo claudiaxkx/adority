@@ -5542,12 +5542,9 @@ form textarea:required:valid {
 
 /* 👉 mover solo el botón "Contáctanos" */
 .mxd-header__controls a.btn {
-  margin-left: -4rem; /* ajusta si lo quieres más pegado */
+  margin-left: 0 !important; /* primero pegamos contra el switch */
+  /* si quieres más, baja a -0.5rem o -1rem */
 }
-.mxd-header__controls a.btn {
-  margin-left: -1rem !important;
-}
-
 
 @media only screen and (min-width: 768px) {
   .mxd-header__controls {
