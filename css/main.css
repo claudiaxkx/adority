@@ -5544,6 +5544,9 @@ form textarea:required:valid {
 .mxd-header__controls a.btn {
   margin-left: -4rem; /* ajusta si lo quieres más pegado */
 }
+.mxd-header__controls a.btn {
+  margin-left: -1rem !important;
+}
 
 
 @media only screen and (min-width: 768px) {
