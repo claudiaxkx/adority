@@ -21024,13 +21024,15 @@ form textarea:required:valid {
 /* Features - Project Details End */
 /* ------------------------------------------------*/
 
+
+@/* MOBILE FIX */
 @media only screen and (max-width: 767px) {
 
   .mxd-divider__image {
-    height: 380px !important;   /* tu altura fija */
+    height: 380px !important;
     position: relative !important;
     overflow: hidden !important;
-    border-radius: 30px !important; /* ajusta al borde de tu diseño */
+    border-radius: 30px !important;
   }
 
   .mxd-divider__image img {
@@ -21038,36 +21040,27 @@ form textarea:required:valid {
     top: 50% !important;
     left: 50% !important;
     width: auto !important;
-    height: 130% !important;  /* más relleno, elimina borde inferior */
+    height: 130% !important;
     min-width: 110% !important;
     transform: translate(-50%, -50%) !important;
     object-fit: cover !important;
     object-position: center !important;
-    border-radius: 30px !important; /* IMPORTANTÍSIMO para que se vean las puntas redondas */
+    border-radius: 30px !important;
     display: block !important;
   }
-}
-/* Reduce el espacio entre el título y el párrafo en los servicios */
-.mxd-services-stack__info {
-  margin-top: 1rem !important;
-}
 
-.mxd-services-stack__info p {
-  margin-top: 0 !important;
-}
+}  /* ← ESTA LLAVE FALTABA */
+
 
 /* FIX FINAL para eliminar el espaciote en escritorio */
 @media (min-width: 1024px) {
 
   .mxd-services-stack__title {
-    margin-bottom: 0.4rem !important; /* antes tenía 2rem */
+    margin-bottom: 0.4rem !important;
   }
 
   .mxd-services-stack__info {
-    margin-top: 0 !important; /* antes tenía 2rem */
+    margin-top: 0 !important;
   }
 
 }
-
-
-
