@@ -5535,6 +5535,10 @@ form textarea:required:valid {
   display: flex;
   gap: 1rem;
 }
+.mxd-header__controls {
+  justify-content: flex-start;
+}
+
 @media only screen and (min-width: 768px) {
   .mxd-header__controls {
     gap: 2rem;
