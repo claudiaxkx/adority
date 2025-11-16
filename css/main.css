@@ -21051,5 +21051,16 @@ form textarea:required:valid {
     display: block !important;
   }
 }
+/* Por defecto se muestra */
+.desktop-only {
+  display: block; /* o flex, según tu diseño */
+}
+
+/* Ocultar en pantallas pequeñas (móviles) */
+@media only screen and (max-width: 767px) {
+  .desktop-only {
+    display: none !important;
+  }
+}
 
 
