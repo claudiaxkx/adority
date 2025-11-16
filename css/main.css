@@ -21117,13 +21117,21 @@ form textarea:required:valid {
 }
 
 @media (max-width: 767px) {
-  .mxd-hero-01__data-wrap,
-  .mxd-hero-01__bottom,
-  .mxd-hero-01__data-btn {
+  .mxd-hero-01__bottom {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    text-align: center !important;
+    grid-template-columns: unset !important;
+  }
+
+  .mxd-hero-01__data-wrap {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .mxd-hero-01__data-btn {
+    margin: 0 auto !important;
   }
 }
 
