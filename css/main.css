@@ -21064,23 +21064,14 @@ form textarea:required:valid {
 }
 /* --------------------------- */
 /* ESTILO PARA BOTÓN DESACTIVADO */
-.mxd-color-switcher:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-  pointer-events: none;
-}
-
-.mxd-color-switcher:disabled::before {
-  background-color: transparent !important;
-}
-
+/* --------------------------- */
+/* BOTÓN DESACTIVADO - NO SE VE */
+.mxd-color-switcher:disabled,
+.mxd-color-switcher:disabled::before,
 .mxd-color-switcher:disabled i {
-  color: #999;
-  transform: scale(1);
+  display: none !important;
 }
 /* --------------------------- */
-.mxd-color-switcher:disabled {
-  display: none !important; /* lo oculta por completo */
-}
+
 
 
