@@ -21117,23 +21117,33 @@ form textarea:required:valid {
 }
 
 @media (max-width: 767px) {
-  .mxd-hero-01__bottom {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    grid-template-columns: unset !important;
+
+  /* El contenedor general se queda igual */
+  .mxd-hero-01__data-wrap {
+    display: grid !important;
+    grid-template-columns: 1fr !important; /* todo en una sola columna */
+    justify-items: center !important;      /* centra contenido */
   }
 
-  .mxd-hero-01__data-wrap {
+  /* El botón ocupa toda la fila y se centra */
+  .mxd-hero-01__data-btn {
+    order: 1;
     width: 100% !important;
     display: flex !important;
     justify-content: center !important;
+    margin-bottom: 2rem !important;
   }
 
-  .mxd-hero-01__data-btn {
-    margin: 0 auto !important;
+  /* Las dos columnas quedan debajo, intactas */
+  .mxd-hero-01__data {
+    order: 2;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* mantiene las dos columnas */
+    gap: 4rem;
   }
 }
+
 
 
 
