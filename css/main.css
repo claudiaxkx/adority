@@ -21063,3 +21063,18 @@ form textarea:required:valid {
   }
 
 }
+/* FIX REAL: evitar el espacio gigante causado por justify-between en desktop */
+@media (min-width: 992px) {
+  .mxd-services-stack__inner.justify-between {
+    justify-content: flex-start !important;  /* ya no separa título y subtítulo */
+    gap: 1rem !important;                     /* espacio bonito y controlado */
+  }
+
+  .mxd-services-stack__title {
+    margin-bottom: 0.3rem !important;         /* separa suavemente el título */
+  }
+
+  .mxd-services-stack__info {
+    margin-top: 0 !important;                 /* elimina saltos */
+  }
+}
