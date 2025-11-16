@@ -1544,23 +1544,27 @@ html.lenis, html.lenis body {
 }
 
 .inner-headline__text {
-  margin-top: 3.3rem;
+  margin-bottom: 3.3rem;
 }
+
 @media only screen and (min-width: 768px) {
   .inner-headline__text {
-    margin-top: 4.9rem;
+    margin-bottom: 4.9rem;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   .inner-headline__text {
-    margin-top: 4.6rem;
+    margin-bottom: 4.6rem;
   }
 }
+
 @media only screen and (min-width: 1600px) {
   .inner-headline__text {
-    margin-top: 5.9rem;
+    margin-bottom: 5.9rem;
   }
 }
+
 
 .inner-headline__paragraph {
   margin-top: 3.8rem;
