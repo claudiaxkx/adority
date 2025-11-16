@@ -21062,5 +21062,22 @@ form textarea:required:valid {
     display: none !important;
   }
 }
+/* --------------------------- */
+/* ESTILO PARA BOTÓN DESACTIVADO */
+.mxd-color-switcher:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.mxd-color-switcher:disabled::before {
+  background-color: transparent !important;
+}
+
+.mxd-color-switcher:disabled i {
+  color: #999;
+  transform: scale(1);
+}
+/* --------------------------- */
 
 
