@@ -21110,35 +21110,39 @@ form textarea:required:valid {
     width: 3.4rem !important; /* ajusta si quieres más pequeño/grande */
   }
 
-  /* Elimina márgenes extra del botón de data */
-  .mxd-hero-01__data-btn {
-    margin-bottom: 0.6rem !important; /* antes 3.1rem */
-  }
-}
 
-@media (max-width: 767px) {
-
-  /* Centrar SOLO el botón */
-  .mxd-hero-01__data-btn {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    width: 100% !important;
-  }
 
   /* Hacer que el SVG rotante se quede centrado */
   .btn-rotating {
     margin-left: auto !important;
     margin-right: auto !important;
   }
-}
-@media (max-width: 767px) {
-  .mxd-hero-01__data-wrap .mxd-hero-01__data-btn {
-    margin-bottom: 3.5rem !important;
-  }
-}
+
 @media (max-width: 767px) {
   .mxd-hero-01__data-socials.loading__fade {
+    margin-bottom: 4rem !important;
+  }
+}
+/* SOLO MÓVIL */
+@media (max-width: 767px) {
+
+  /* Centrar el botón */
+  .mxd-hero-01__data-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin-bottom: 3.5rem !important; /* MÁS espacio debajo */
+  }
+
+  /* Lista Innovación / Diseño / Compromiso en columna */
+  .mxd-hero-01__data-socials ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* MÁS espacio debajo de Compromiso */
+  .mxd-hero-01__data-socials {
     margin-bottom: 4rem !important;
   }
 }
