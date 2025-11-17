@@ -21170,31 +21170,18 @@ form textarea:required:valid {
   }
 }
 
-  /* Opcional: si quieres también reducir padding superior de estadísticas en móvil */
-  .mxd-section.padding-grid-pre-mtext {
-    padding-top: 0.5rem; /* Ajusta según necesites */
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  /* Reducir espacio debajo del botón Contáctanos */
+ @media only screen and (max-width: 767px) {
+  /* Reducir espacio debajo del botón */
   .mxd-manifest__controls {
-    margin-bottom: 0.75rem !important;
+    margin-bottom: 0.5rem !important;
   }
 
-  /* Reducir espacio arriba de la sección "Statistics Cards" (50+ clientes felices) */
-  .mxd-section.padding-grid-pre-mtext {
-    padding-top: 0.5rem !important;
-  }
-
-  /* Si la tarjeta .mxd-stats-cards__item tiene margen propio, anularlo */
-  .mxd-stats-cards__item {
+  /* Reducir espacio arriba de 50+ clientes felices */
+  .mxd-section.padding-grid-pre-mtext,
+  .mxd-container.grid-container,
+  .mxd-block,
+  .mxd-stats-cards {
+    padding-top: 0 !important;
     margin-top: 0 !important;
   }
-
-  /* Si el interior de la tarjeta añade padding extra, reducirlo */
-  .mxd-stats-cards__inner {
-    padding-top: 0.75rem !important;
-  }
 }
-
