@@ -21165,8 +21165,10 @@ form textarea:required:valid {
 @media only screen and (max-width: 767px) {
   /* Reducir espacio debajo del botón Contáctanos solo en móvil */
   .mxd-manifest__controls {
-    margin-bottom: 0.5rem; /* Ajusta según necesites */
+    margin-bottom: 6rem !important;
+    margin-top: 1rem !important; /* <-- aquí editas la parte superior */
   }
+}
 
   /* Opcional: si quieres también reducir padding superior de estadísticas en móvil */
   .mxd-section.padding-grid-pre-mtext {
