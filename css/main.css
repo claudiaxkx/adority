@@ -21073,10 +21073,10 @@ form textarea:required:valid {
 
 /* FIX ESPACIO HERO (MÓVIL) */
 @media only screen and (max-width: 767px) {
-  /* Reduce el padding de la parte superior (título) */
+  /* Reduce el padding de la parte superior (título) debajo de magia*/
   .mxd-hero-01__top {
-    padding-top: 4rem !important;    /* antes 11.5rem */
-    padding-bottom: 4rem !important; /* antes 12.9rem */
+    padding-top: 3rem !important;    /* antes 11.5rem */
+    padding-bottom: 3rem !important; /* antes 12.9rem */
   }
 
   /* Reduce el padding enorme que empuja todo */
