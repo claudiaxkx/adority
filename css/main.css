@@ -21146,8 +21146,19 @@ form textarea:required:valid {
     margin-bottom: 5rem !important;
   }
 }
+@media (max-width: 767px) {
 
+  /* Reduce el espacio debajo de la imagen parallax */
+  .mxd-section.padding-hero-01 {
+    padding-bottom: 1.5rem !important;
+  }
 
+  /* Reduce el espacio antes de “Quiénes somos” */
+  .mxd-section.padding-pre-grid {
+    padding-top: 1.5rem !important;
+  }
+
+}
 
 
 
