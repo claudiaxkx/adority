@@ -21132,7 +21132,7 @@ form textarea:required:valid {
     justify-content: center !important;
     align-items: center !important;
     width: 100% !important;
-    margin-bottom: 5rem !important; /* MÁS espacio debajo */
+    margin-bottom: 6rem !important; /* MÁS espacio debajo */
   }
 
   /* Lista Innovación / Diseño / Compromiso en columna */
