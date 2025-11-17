@@ -21132,7 +21132,7 @@ form textarea:required:valid {
     justify-content: center !important;
     align-items: center !important;
     width: 100% !important;
-    margin-bottom: 3.5rem !important; /* MÁS espacio debajo */
+    margin-bottom: 5rem !important; /* MÁS espacio debajo */
   }
 
   /* Lista Innovación / Diseño / Compromiso en columna */
@@ -21143,7 +21143,7 @@ form textarea:required:valid {
 
   /* MÁS espacio debajo de Compromiso */
   .mxd-hero-01__data-socials {
-    margin-bottom: 4rem !important;
+    margin-bottom: 5rem !important;
   }
 }
 
