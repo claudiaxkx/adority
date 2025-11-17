@@ -21165,7 +21165,7 @@ form textarea:required:valid {
 @media only screen and (max-width: 767px) {
   /* Reducir espacio debajo del botón Contáctanos solo en móvil */
   .mxd-manifest__controls {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0.4rem !important;
     margin-top: 2rem !important; /* <-- aquí editas la parte superior */
   }
 }
@@ -21173,7 +21173,7 @@ form textarea:required:valid {
  @media only screen and (max-width: 767px) {
   /* Reducir espacio debajo del botón */
   .mxd-manifest__controls {
-    margin-bottom: 0.2rem !important;
+    margin-bottom: 0.1rem !important;
   }
 
   /* Reducir espacio arriba de 50+ clientes felices */
