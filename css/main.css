@@ -21185,3 +21185,14 @@ form textarea:required:valid {
     margin-top: 0 !important;
   }
 }
+
+
+@media (min-width: 1024px) {
+  .mxd-hero-01__data-wrap {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    justify-items: center;
+    align-items: start;
+  }
+}
