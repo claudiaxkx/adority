@@ -7889,16 +7889,13 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 1200px) {
   .mxd-hero-01__data-wrap {
-    padding: 14rem 0 13.2rem 0; /* si quieres mantener tu padding original o ajustarlo */
-  }
-
-  /* AQUI restauramos las 3 columnas */
-  .mxd-hero-01__data-wrap > * {
-    width: 33.33%;
-    float: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem; /* opcional, para separar un poco */
+    height: auto; /* para que ya no quede un hueco grande */
   }
 }
-
 @media only screen and (min-width: 1600px) {
   .mxd-hero-01__data-wrap {
     padding-right: 15rem;
@@ -21182,4 +21179,5 @@ form textarea:required:valid {
     padding-top: 0 !important;
     margin-top: 0 !important;
   }
+}
 }
