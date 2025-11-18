@@ -21180,4 +21180,21 @@ form textarea:required:valid {
     margin-top: 0 !important;
   }
 }
+
+/* ---- Desktop: Hero 3 columnas usando Grid (recomendado) ---- */
+@media (min-width: 1200px) {
+  .mxd-hero-01__data-wrap {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    justify-items: center;
+    align-items: start;
+    padding: 14rem 0 13.2rem 0;
+  }
+
+  /* Opcional: asegurar que los items no excedan un ancho */
+  .mxd-hero-01__data-wrap > * {
+    width: auto; /* deja que grid haga el layout */
+    float: none !important;
+  }
 }
