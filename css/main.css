@@ -21063,19 +21063,19 @@ form textarea:required:valid {
 
 /* FIX ESPACIO HERO (MÓVIL) */
 @media only screen and (max-width: 767px) {
-  /* Reduce el padding de la parte superior (título) debajo de magia*/
+
+  /* Reduce el padding de la parte superior (título) debajo de magia */
   .mxd-hero-01__top {
-    padding-top: 3rem !important;    /* antes 11.5rem */
-    padding-bottom: 3rem !important; /* antes 12.9rem */
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
   }
 
-@media (max-width: 767px) {
+  /* Ajuste data-wrap */
   .mxd-hero-01__data-wrap {
     padding: 2.4rem 0 1.6rem 0;
   }
-}
 
-  /* Acomoda el contenedor inferior por si tiene gaps heredados */
+  /* Acomoda el contenedor inferior */
   .mxd-hero-01__bottom {
     gap: 0.6rem !important;
     margin-top: 0 !important;
@@ -21091,101 +21091,63 @@ form textarea:required:valid {
     width: 100px !important;
     height: 100px !important;
   }
+
   .btn-rotating .btn-rotating__text {
     width: 100px !important;
     height: 100px !important;
     top: 0 !important;
     left: 0 !important;
   }
+
   .btn-rotating .btn-rotating__image {
-    width: 3.4rem !important; /* ajusta si quieres más pequeño/grande */
+    width: 3.4rem !important;
   }
 
-  /* Hacer que el SVG rotante se quede centrado */
+  /* Centrado */
   .btn-rotating {
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
-@media (max-width: 767px) {
+  /* MÁS espacio debajo */
   .mxd-hero-01__data-socials.loading__fade {
     margin-bottom: 4rem !important;
   }
-}
-/* SOLO MÓVIL */
-@media (max-width: 767px) {
 
-  /* Centrar el botón */
+  /* Centrar botón */
   .mxd-hero-01__data-btn {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     width: 100% !important;
-    margin-bottom: 6rem !important; /* MÁS espacio debajo */
+    margin-bottom: 6rem !important;
   }
 
-  /* Lista Innovación / Diseño / Compromiso en columna */
+  /* Lista en columna */
   .mxd-hero-01__data-socials ul {
     display: flex;
     flex-direction: column;
   }
 
-  /* MÁS espacio debajo de Compromiso */
+  /* Más espacio debajo */
   .mxd-hero-01__data-socials {
     margin-bottom: 5rem !important;
   }
-}
 
-@media (max-width: 767px) {
-
-  /* Reduce el espacio debajo de la imagen parallax */
+  /* Reduce espacio parallax */
   .mxd-section.padding-hero-01 {
     padding-bottom: 0.4rem !important;
   }
 
-  /* Reduce el espacio antes de “Quiénes somos” */
+  /* Reduce espacio antes de quiénes somos */
   .mxd-section.padding-pre-grid {
     padding-top: 0.4rem !important;
   }
 
-}
-
-@media only screen and (max-width: 767px) {
-  /* Reducir espacio debajo del botón Contáctanos solo en móvil */
+  /* Reducir espacio debajo del botón Contáctanos */
   .mxd-manifest__controls {
     margin-bottom: 0.4rem !important;
-    margin-top: 2rem !important; /* <-- aquí editas la parte superior */
-  }
-}
-
- @media only screen and (max-width: 767px) {
-  /* Reducir espacio debajo del botón */
-  .mxd-manifest__controls {
-    margin-bottom: 0.1rem !important;
+    margin-top: 2rem !important;
   }
 
-  /* Reducir espacio arriba de 50+ clientes felices */
-  .mxd-section.padding-grid-pre-mtext,
-  .mxd-container.grid-container,
-  .mxd-block,
-  .mxd-stats-cards {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  .mxd-hero-01__data-wrap {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
-    justify-items: center;
-    align-items: start;
-    padding: 14rem 0 13.2rem 0;
-  }
-
-  .mxd-hero-01__data-wrap > * {
-    width: auto;
-    float: none !important;
-  }
-}
+} /* ← cierre del @media */
