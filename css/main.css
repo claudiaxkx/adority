@@ -21186,8 +21186,15 @@ form textarea:required:valid {
   }
 }
 
-
+/* ——————————————
+   PC: Restaurar layout en columnas
+   —————————————— */
 @media (min-width: 1024px) {
+  .mxd-hero-01__bottom {
+    display: flex;
+    justify-content: center;
+  }
+
   .mxd-hero-01__data-wrap {
     display: grid !important;
     grid-template-columns: repeat(3, 1fr);
