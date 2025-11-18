@@ -7889,13 +7889,16 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 1200px) {
   .mxd-hero-01__data-wrap {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem; /* opcional, para separar un poco */
-    height: auto; /* para que ya no quede un hueco grande */
+    padding: 14rem 0 13.2rem 0; /* si quieres mantener tu padding original o ajustarlo */
+  }
+
+  /* AQUI restauramos las 3 columnas */
+  .mxd-hero-01__data-wrap > * {
+    width: 33.33%;
+    float: left;
   }
 }
+
 @media only screen and (min-width: 1600px) {
   .mxd-hero-01__data-wrap {
     padding-right: 15rem;
@@ -21069,8 +21072,6 @@ form textarea:required:valid {
   height: auto !important;
 }
 
-
-
 /* FIX ESPACIO HERO (MÓVIL) */
 @media only screen and (max-width: 767px) {
   /* Reduce el padding de la parte superior (título) debajo de magia*/
@@ -21110,8 +21111,6 @@ form textarea:required:valid {
     width: 3.4rem !important; /* ajusta si quieres más pequeño/grande */
   }
 
-
-
   /* Hacer que el SVG rotante se quede centrado */
   .btn-rotating {
     margin-left: auto !important;
@@ -21146,7 +21145,6 @@ form textarea:required:valid {
     margin-bottom: 5rem !important;
   }
 }
-
 
 @media (max-width: 767px) {
 
@@ -21183,23 +21181,5 @@ form textarea:required:valid {
   .mxd-stats-cards {
     padding-top: 0 !important;
     margin-top: 0 !important;
-  }
-}
-
-/* ——————————————
-   PC: Restaurar layout en columnas
-   —————————————— */
-@media (min-width: 1024px) {
-  .mxd-hero-01__bottom {
-    display: flex;
-    justify-content: center;
-  }
-
-  .mxd-hero-01__data-wrap {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
-    justify-items: center;
-    align-items: start;
   }
 }
