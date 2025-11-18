@@ -7887,15 +7887,7 @@ form textarea:required:valid {
   position: relative;
   padding: 14rem 0 13.2rem 0;
 }
-@media only screen and (min-width: 1200px) {
-  .mxd-hero-01__data-wrap {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem; /* opcional, para separar un poco */
-    height: auto; /* para que ya no quede un hueco grande */
-  }
-}
+
 @media only screen and (min-width: 1600px) {
   .mxd-hero-01__data-wrap {
     padding-right: 15rem;
@@ -21077,10 +21069,11 @@ form textarea:required:valid {
     padding-bottom: 3rem !important; /* antes 12.9rem */
   }
 
-  /* Reduce el padding enorme que empuja todo */
+@media (max-width: 767px) {
   .mxd-hero-01__data-wrap {
-    padding: 2.4rem 0 1.6rem 0 !important; /* antes 14rem 0 13.2rem 0 */
+    padding: 2.4rem 0 1.6rem 0;
   }
+}
 
   /* Acomoda el contenedor inferior por si tiene gaps heredados */
   .mxd-hero-01__bottom {
@@ -21181,7 +21174,6 @@ form textarea:required:valid {
   }
 }
 
-/* ---- Desktop: Hero 3 columnas usando Grid (recomendado) ---- */
 @media (min-width: 1200px) {
   .mxd-hero-01__data-wrap {
     display: grid !important;
@@ -21192,9 +21184,8 @@ form textarea:required:valid {
     padding: 14rem 0 13.2rem 0;
   }
 
-  /* Opcional: asegurar que los items no excedan un ancho */
   .mxd-hero-01__data-wrap > * {
-    width: auto; /* deja que grid haga el layout */
+    width: auto;
     float: none !important;
   }
 }
