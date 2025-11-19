@@ -21151,3 +21151,36 @@ form textarea:required:valid {
   }
 
 } /* ← cierre del @media */
+/* FIX HERO DESKTOP — SOLO PC */
+@media (min-width: 1200px) {
+  .mxd-hero-01__data-wrap {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 3rem !important;
+    justify-items: center;
+    align-items: start !important;
+    padding: 13rem 0 !important;
+  }
+
+  .mxd-hero-01__data-wrap > * {
+    width: auto !important;
+    margin: 0 !important;
+    float: none !important;
+    text-align: left !important;
+  }
+
+  /* Asegura que Innovación / Diseño / Compromiso se alineen a la derecha */
+  .mxd-hero-01__data-socials {
+    justify-self: end !important;
+  }
+
+  /* Asegura que el texto de descripción quede en la columna central */
+  .mxd-hero-01__data-descr {
+    justify-self: center !important;
+  }
+
+  /* Asegura que el botón circular quede a la izquierda */
+  .mxd-hero-01__data-btn {
+    justify-self: start !important;
+  }
+}
